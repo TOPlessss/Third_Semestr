@@ -95,7 +95,7 @@ public class TheGame implements ActionListener
 
     public static void createFrame()
     {
-        JFrame frame = new JFrame("The Game");
+        JFrame frame = new JFrame("BATTLE FOR AZEROTH");
 
         TheGame game = new TheGame();
         frame.setContentPane(game.createTotalPanel());
